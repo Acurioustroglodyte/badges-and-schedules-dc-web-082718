@@ -18,4 +18,4 @@ def printer(rooms)
   puts rooms
 end
 
-printer(assign_rooms(['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']))
+# Test: printer(assign_rooms(['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']))
