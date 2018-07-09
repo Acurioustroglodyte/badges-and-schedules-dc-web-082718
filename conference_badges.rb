@@ -1,3 +1,5 @@
+guests = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -18,4 +20,4 @@ def printer(rooms)
   rooms.each {|i| puts i}
 end
 
-# Test: printer(assign_rooms(['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']))
+printer(assign_rooms(guests))
