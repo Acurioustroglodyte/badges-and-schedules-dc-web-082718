@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(arr)
   arr.collect do |i|
-    i = badge_maker(i)
+    badge_maker(i)
   end
 end
 
