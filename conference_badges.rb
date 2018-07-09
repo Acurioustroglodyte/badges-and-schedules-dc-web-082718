@@ -6,7 +6,6 @@ def assign_rooms
 
 end
 
-def printer(badges, rooms)
-  puts badges
+def printer(rooms)
   puts rooms
 end
