@@ -17,3 +17,5 @@ end
 def printer(rooms)
   puts rooms
 end
+
+assign_rooms
