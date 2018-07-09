@@ -15,7 +15,7 @@ def assign_rooms(arr)
 end
 
 def printer(rooms)
-  puts rooms
+  rooms.each {|i| puts i}
 end
 
 # Test: printer(assign_rooms(['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']))
