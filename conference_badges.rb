@@ -1,4 +1,4 @@
-guests = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
+# Test data: guests = ['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz']
 
 def badge_maker(name)
   return "Hello, my name is #{name}."
@@ -22,4 +22,4 @@ def printer(rooms)
   end
 end
 
-printer(assign_rooms(guests))
+# Test invocation: printer(assign_rooms(guests))
