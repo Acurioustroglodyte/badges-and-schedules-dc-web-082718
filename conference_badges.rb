@@ -17,7 +17,9 @@ def assign_rooms(arr)
 end
 
 def printer(rooms)
-  rooms.each {|i| puts i}
+  rooms.each do |i|
+    puts i
+  end
 end
 
 printer(assign_rooms(guests))
