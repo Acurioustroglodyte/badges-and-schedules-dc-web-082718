@@ -5,4 +5,4 @@ def batch_badge_creator(arr_names)
   return arr_names
 end
 
-batch_badge_creator
+batch_badge_creator(['Edsger', 'Ada', 'Charles', 'Alan', 'Grace', 'Linus', 'Matz'])
