@@ -10,8 +10,7 @@ end
 
 def assign_rooms(arr)
   arr.collect do |i|
-    ind = i.find_index + 1
-    "Hello, #{name}! You'll be assigned to room #{ind}!"
+    "Hello, #{name}! You'll be assigned to room #{i.index}!"
   end
 end
 
